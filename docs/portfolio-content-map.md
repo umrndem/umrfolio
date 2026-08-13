@@ -6,7 +6,7 @@ modules. For editing steps, use `docs/content-management.md`.
 | Visible area | Current source | Evidence/publication boundary | Remaining input |
 |---|---|---|---|
 | Introduction | `src/content/home.ts` + `src/content/profile.ts` | Name, location, degree direction, C++ foundation, and transparent AI-assisted practice are approved/evidence-backed | Final voice review |
-| Current experience | `src/content/home.ts` | ETS internship dates/responsibilities remain qualitative and bounded | Confirm future role/status changes |
+| Current experience | `src/content/home.ts` | Completed ETS internship and current software development apprenticeship; responsibilities remain qualitative and bounded | Confirm future role/status changes |
 | Technical range | `src/content/projects.ts` | Conceptual systems programming → people axis, not a proficiency score | Visitor comprehension review |
 | Selected work | `src/content/projects.ts` | Order: ETS Website, Sentinel, Snakinesis, RideFlow, DataPulse, Financial Tick Data Pipeline | Final lead choice; approved media |
 | Project-card surfaces | `src/content/project-surfaces.ts` + `data-surface` on cards | Positional opacity of lead red; only the last card is lowest tint | Recheck when published count changes |

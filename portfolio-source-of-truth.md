@@ -4,7 +4,7 @@ Canonical human-provided identity and project facts for Muhammad Umar Nadeem’s
 portfolio. Live content in `src/content/` must stay within these boundaries.
 Do not invent missing details. Prefer recording uncertainty over assumption.
 
-**Last updated:** 24 July 2026
+**Last updated:** 13 August 2026
 
 ## Evidence labels
 
@@ -38,10 +38,11 @@ confident public claim.
 
 | Fact | Value | Evidence |
 |---|---|---|
-| Role | IT Intern | user-verified |
+| Current role | Software Development Apprentice | user-verified |
 | Organization | Eastern Testing Services | user-verified |
-| Period | June — August 2026 (eight weeks) | user-verified |
-| Work shape | Requirements gathering with stakeholders; building internal and public-facing systems | user-verified / repository-verified |
+| Internship | IT Intern, June — August 2026 (eight weeks), completed | user-verified |
+| Apprenticeship | Offered after the internship; August 2026 — present | user-verified |
+| Work shape | Requirements gathering with stakeholders; continuing to expand and maintain Sentinel and the ETS Website | user-verified / repository-verified |
 | AI assistance | Used throughout development; Umar owns problem framing, architecture, testing, and what ships | user-verified |
 
 ## Positioning (restrained)

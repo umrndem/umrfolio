@@ -21,7 +21,7 @@ export const allProjects: readonly Project[] = [
     eyebrow: "Professional work",
     summary:
       "A structured public website and CMS system designed around the people who publish, maintain, and find organizational information.",
-    context: "Eastern Testing Services · IT internship",
+    context: "Eastern Testing Services · Internship → apprenticeship",
     period: "June 2026 — Present",
     stage: "Under development · partially deployed",
     display: "featured",
@@ -77,7 +77,7 @@ export const allProjects: readonly Project[] = [
     eyebrow: "Professional work",
     summary:
       "An internal management information system covering HSEQ reporting, employee medical records, and operations job tracking with role-based access, audit trails, and transactional workflows.",
-    context: "Eastern Testing Services · IT internship",
+    context: "Eastern Testing Services · Internship → apprenticeship",
     period: "July 2026 — Present",
     stage: "Deployed internally · under active development",
     display: "featured",

@@ -7,7 +7,7 @@ export const homeContent = {
     primaryAction: "See selected work",
     currentLabel: "Currently",
     current:
-      "IT Intern at Eastern Testing Services, building internal and public-facing systems with operational stakeholders.",
+      "Software Development Apprentice at Eastern Testing Services, expanding and maintaining Sentinel and the ETS Website.",
     portraitPlaceholder: {
       title: "Portrait in review",
       note: "Approved photograph needed before launch.",
@@ -30,17 +30,35 @@ export const homeContent = {
       title: "Experience",
       note: "Roles, internships, and the work I took ownership of along the way.",
     },
-    period: "Jun — Aug 2026",
-    duration: "Eight weeks",
-    organization: "Eastern Testing Services",
-    role: "IT Intern",
-    summary:
-      "Working with management and operational stakeholders to gather requirements and build internal and public-facing software systems.",
-    responsibilities: [
-      "Translate stakeholder needs into software workflows.",
-      "Structure content, data models, permissions, and interfaces.",
-      "Replace fragmented manual work with more centralized systems.",
-      "Review, test, document, and refine AI-assisted implementation.",
+    entries: [
+      {
+        period: "Aug 2026 — Present",
+        duration: "Ongoing",
+        organization: "Eastern Testing Services",
+        role: "Software Development Apprentice",
+        summary:
+          "Continuing the work I began during my internship by expanding and maintaining Sentinel and the ETS Website.",
+        responsibilities: [
+          "Extend and refine internal and public-facing software systems.",
+          "Maintain existing workflows, content structures, permissions, and interfaces.",
+          "Work with stakeholders as requirements and operational needs evolve.",
+          "Review, test, document, and refine AI-assisted implementation.",
+        ],
+      },
+      {
+        period: "Jun — Aug 2026",
+        duration: "Eight weeks",
+        organization: "Eastern Testing Services",
+        role: "IT Intern",
+        summary:
+          "Worked with management and operational stakeholders to gather requirements and build internal and public-facing software systems.",
+        responsibilities: [
+          "Translated stakeholder needs into software workflows.",
+          "Structured content, data models, permissions, and interfaces.",
+          "Replaced fragmented manual work with more centralized systems.",
+          "Reviewed, tested, documented, and refined AI-assisted implementation.",
+        ],
+      },
     ],
   },
   approach: {
@@ -91,7 +109,7 @@ export const homeContent = {
     headline: ["Have a problem you think", "I could help solve?"],
     action: "Write to me",
     availability:
-      "I’m open to internships and technical roles where I can solve real problems, learn quickly, and contribute useful work.",
+      "I’m open to technical opportunities where I can solve real problems, learn quickly, and contribute useful work.",
     form: {
       nameLabel: "Name",
       namePlaceholder: "Your name",

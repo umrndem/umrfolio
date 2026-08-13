@@ -112,22 +112,24 @@ export default function Home() {
             note={homeContent.experience.heading.note}
           />
         </Reveal>
-        <article className="experience-entry">
-          <div className="experience-entry__when">
-            <p>{homeContent.experience.period}</p>
-            <p>{homeContent.experience.duration}</p>
-          </div>
-          <div className="experience-entry__role">
-            <p>{homeContent.experience.organization}</p>
-            <h3>{homeContent.experience.role}</h3>
-            <p>{homeContent.experience.summary}</p>
-          </div>
-          <ul>
-            {homeContent.experience.responsibilities.map((responsibility) => (
-              <li key={responsibility}>{responsibility}</li>
-            ))}
-          </ul>
-        </article>
+        {homeContent.experience.entries.map((entry) => (
+          <article className="experience-entry" key={entry.role}>
+            <div className="experience-entry__when">
+              <p>{entry.period}</p>
+              <p>{entry.duration}</p>
+            </div>
+            <div className="experience-entry__role">
+              <p>{entry.organization}</p>
+              <h3>{entry.role}</h3>
+              <p>{entry.summary}</p>
+            </div>
+            <ul>
+              {entry.responsibilities.map((responsibility) => (
+                <li key={responsibility}>{responsibility}</li>
+              ))}
+            </ul>
+          </article>
+        ))}
       </section>
 
       <section

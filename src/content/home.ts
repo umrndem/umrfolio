@@ -7,7 +7,7 @@ export const homeContent = {
     primaryAction: "See selected work",
     currentLabel: "Currently",
     current:
-      "A full-time Data Science student and Software Development Apprentice at Eastern Testing Services, preparing to begin a volunteer Research Assistant role at Data Insight Lab in September 2026.",
+      "A full-time Data Science student, Software Development Apprentice at Eastern Testing Services, and volunteer Research Assistant at Data Insight Lab.",
     portraitPlaceholder: {
       title: "Portrait in review",
       note: "Approved photograph needed before launch.",
@@ -46,12 +46,12 @@ export const homeContent = {
         ],
       },
       {
-        period: "Starting Sep 2026",
-        duration: "Upcoming · Volunteer",
+        period: "Sep 2026 — Present",
+        duration: "Ongoing · Volunteer",
         organization: "Data Insight Lab · FAST-NUCES Islamabad",
         role: "Research Assistant",
         summary:
-          "Joining the lab as a volunteer to develop a stronger grounding in AI and data science theory and research.",
+          "Working with the lab as a volunteer to develop a stronger grounding in AI and data science theory and research.",
         responsibilities: [
           "Learn and contribute within an academic AI and data science research environment.",
         ],

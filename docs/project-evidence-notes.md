@@ -70,10 +70,12 @@ Evidence labels: **repository-verified**, **user-verified**, **inferred**,
 - Express, JavaScript, and MySQL simulation surface: repository-verified.
 - Railway deployment with Aiven-managed MySQL: user-verified.
 - Hosted demo not currently active: user-verified.
+- Muhammad Rafay Mir Khattak is an approved named contributor: user-verified.
 - Fresh-start path remains in the public repo (schema / logic / bootstrap SQL and
   `npm run db:init` against a configured MySQL database, then run the Express
   app locally or on a new host): repository-verified.
-- Contribution split and course/assessment context: unresolved.
+- Contribution split with Muhammad Rafay Mir Khattak and course/assessment
+  context: unresolved.
 - Whether any specific public demo URL may be republished: unresolved.
 
 ## Snakinesis

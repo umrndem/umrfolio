@@ -169,7 +169,7 @@ export const allProjects: readonly Project[] = [
     eyebrow: "Relational systems",
     summary:
       "A multi-role ride-hailing simulation with Express APIs, MySQL business rules, and rider, driver, and admin surfaces.",
-    context: "Public project · collaborative academic context",
+    context: "Public project · contributor: Muhammad Rafay Mir Khattak",
     period: "May 2026",
     stage: "Public prototype · not currently active",
     display: "supporting",
@@ -183,7 +183,7 @@ export const allProjects: readonly Project[] = [
     proof:
       "I can show Express routes, MySQL schema and database-side logic, and role-oriented frontend surfaces for a ride-hailing simulation in the public repository.",
     limitation:
-      "The hosted demo is not currently active. I still need confirmation of the contribution split with collaborators; I do not claim production-scale or commercial impact.",
+      "The hosted demo is not currently active. The exact contribution split with Muhammad Rafay Mir Khattak remains unresolved; I do not claim production-scale or commercial impact.",
     repositoryUrl: "https://github.com/umrndem/rideflow",
     sections: [
       {

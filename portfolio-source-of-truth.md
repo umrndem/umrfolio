@@ -46,7 +46,7 @@ confident public claim.
 | AI assistance | Used throughout development; Umar owns problem framing, architecture, testing, and what ships | user-verified |
 | Study status | Full-time BS Data Science student | user-verified |
 | Research Assistant role | Current volunteer Research Assistant, Data Insight Lab at FAST-NUCES Islamabad Campus; public date shown as September 2026 — present (role confirmed active on 28 August 2026) | user-verified; lab name and affiliation externally verified |
-| Research Assistant purpose | Learning AI and data science theory and research | user-verified |
+| Research Assistant purpose | Learning AI & DS theory and research | user-verified |
 
 ## Positioning (restrained)
 

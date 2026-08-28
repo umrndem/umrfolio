@@ -51,9 +51,9 @@ export const homeContent = {
         organization: "Data Insight Lab · FAST-NUCES Islamabad",
         role: "Research Assistant",
         summary:
-          "Working with the lab as a volunteer to develop a stronger grounding in AI and data science theory and research.",
+          "Working with the lab as a volunteer to develop a stronger grounding in AI & DS theory and research.",
         responsibilities: [
-          "Learn and contribute within an academic AI and data science research environment.",
+          "Learn and contribute within an academic AI & DS research environment.",
         ],
       },
       {

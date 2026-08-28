@@ -7,7 +7,7 @@ export const homeContent = {
     primaryAction: "See selected work",
     currentLabel: "Currently",
     current:
-      "Software Development Apprentice at Eastern Testing Services, expanding and maintaining Sentinel and the ETS Website.",
+      "A full-time Data Science student and Software Development Apprentice at Eastern Testing Services, preparing to begin a volunteer Research Assistant role at Data Insight Lab in September 2026.",
     portraitPlaceholder: {
       title: "Portrait in review",
       note: "Approved photograph needed before launch.",
@@ -43,6 +43,17 @@ export const homeContent = {
           "Maintain existing workflows, content structures, permissions, and interfaces.",
           "Work with stakeholders as requirements and operational needs evolve.",
           "Review, test, document, and refine AI-assisted implementation.",
+        ],
+      },
+      {
+        period: "Starting Sep 2026",
+        duration: "Upcoming · Volunteer",
+        organization: "Data Insight Lab · FAST-NUCES Islamabad",
+        role: "Research Assistant",
+        summary:
+          "Joining the lab as a volunteer to develop a stronger grounding in AI and data science theory and research.",
+        responsibilities: [
+          "Learn and contribute within an academic AI and data science research environment.",
         ],
       },
       {

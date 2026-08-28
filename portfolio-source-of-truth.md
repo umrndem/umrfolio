@@ -44,6 +44,9 @@ confident public claim.
 | Apprenticeship | Offered after the internship; August 2026 — present | user-verified |
 | Work shape | Requirements gathering with stakeholders; continuing to expand and maintain Sentinel and the ETS Website | user-verified / repository-verified |
 | AI assistance | Used throughout development; Umar owns problem framing, architecture, testing, and what ships | user-verified |
+| Study status | Full-time BS Data Science student | user-verified |
+| Research Assistant role | Volunteer Research Assistant, Data Insight Lab at FAST-NUCES Islamabad Campus; starts September 2026 | user-verified; lab name and affiliation externally verified |
+| Research Assistant purpose | Learning AI and data science theory and research | user-verified |
 
 ## Positioning (restrained)
 

@@ -209,7 +209,7 @@ export default async function WorkPage({ params }: WorkPageProps) {
                     <p>Visit the public website to see the project in use.</p>
                   </div>
                   <a
-                    className="button-link"
+                    className="button-link case-study__live-link"
                     href={project.liveUrl}
                     target="_blank"
                     rel="noopener noreferrer"

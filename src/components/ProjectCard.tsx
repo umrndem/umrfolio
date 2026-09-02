@@ -147,10 +147,7 @@ export function ProjectCard({
               rel="noopener noreferrer"
               aria-label={`Visit ${project.title} live (opens in a new tab)`}
             >
-              <span>
-                <small>Live proof of work</small>
-                Visit live website
-              </span>
+              <span>Visit live website</span>
               <span aria-hidden="true">↗</span>
             </a>
           ) : null}

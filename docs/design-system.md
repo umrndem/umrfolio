@@ -208,6 +208,13 @@ mono label, minimum 48px height, and a restrained 1px hover lift.
 High-contrast footer action for deep maroon. Its hover stays within the maroon
 family.
 
+### Live proof actions
+
+The ETS homepage and case-study live-site actions use dedicated semantic tokens:
+white with black text in light mode, and black with white text in dark mode. The
+homepage action follows the compact height and typography rhythm of the other
+project-card actions.
+
 ### `.text-link`
 
 Underlined or clearly text-linked secondary action. Hover changes semantic link

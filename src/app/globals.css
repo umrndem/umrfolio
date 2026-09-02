@@ -24,6 +24,8 @@
   --color-border-emphasis: #cf9a94;
   --color-action-bg: #c71616;
   --color-action-text: #ffffff;
+  --color-live-proof-bg: #ffffff;
+  --color-live-proof-text: #111111;
   --color-link: #1b1817;
   --color-link-hover: #d31616;
   --color-focus: #e5120e;
@@ -89,6 +91,8 @@
   --color-border-emphasis: #6e2a26;
   --color-action-bg: #c71616;
   --color-action-text: #ffffff;
+  --color-live-proof-bg: #0b0b0b;
+  --color-live-proof-text: #ffffff;
   --color-link: #f4f1ef;
   --color-link-hover: #f5453b;
   --color-focus: #fa2a1e;
@@ -1408,16 +1412,15 @@ svg {
 }
 
 .project-card__live-link {
-  display: flex;
-  gap: 1.5rem;
+  display: inline-flex;
+  gap: 1rem;
   align-items: center;
   justify-content: space-between;
-  min-width: 14.5rem;
-  min-height: 4.25rem;
-  padding: 0.8rem 1rem;
-  border: 1px solid var(--card-ink);
-  background: var(--card-ink);
-  color: var(--color-bg-primary);
+  min-height: 3rem;
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--color-live-proof-bg);
+  background: var(--color-live-proof-bg);
+  color: var(--color-live-proof-text);
   font-family: var(--font-mono), var(--font-mono-fallback);
   font-size: 0.75rem;
   font-weight: 500;
@@ -1431,19 +1434,7 @@ svg {
     transform 180ms var(--ease-out);
 }
 
-.project-card__live-link small {
-  display: block;
-  margin-bottom: 0.35rem;
-  color: currentColor;
-  font-size: 0.58rem;
-  font-weight: 400;
-  letter-spacing: 0.075em;
-  opacity: 0.72;
-}
-
 .project-card__live-link:hover {
-  background: transparent;
-  color: var(--card-ink);
   transform: translateY(-1px);
 }
 
@@ -2590,6 +2581,18 @@ svg {
 .case-study__live-proof .button-link {
   flex: none;
   margin-top: 0;
+}
+
+.case-study__live-link {
+  border-color: var(--color-live-proof-bg);
+  background: var(--color-live-proof-bg);
+  color: var(--color-live-proof-text);
+}
+
+.case-study__live-link:hover {
+  border-color: var(--color-live-proof-bg);
+  background: var(--color-live-proof-bg);
+  color: var(--color-live-proof-text);
 }
 
 .case-study__private-note {

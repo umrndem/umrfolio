@@ -127,8 +127,15 @@ function validateProject(
     );
   }
 
-  if (project.visibility === "confidential" && project.repositoryUrl) {
-    errors.push(`${field} is confidential and cannot expose a repository URL.`);
+  if (
+    project.visibility === "confidential" &&
+    (project.liveUrl || project.repositoryUrl)
+  ) {
+    errors.push(`${field} is confidential and cannot expose a public URL.`);
+  }
+
+  if (project.liveUrl) {
+    requireHttpsUrl(project.liveUrl, `${field}.liveUrl`, errors);
   }
 
   if (project.repositoryUrl) {

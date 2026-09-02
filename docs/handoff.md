@@ -146,7 +146,7 @@ Content/approval:
 - academic year/semester conflict;
 - contribution split confirmation for collaborative work;
 - safe Snakinesis demo media;
-- whether project deployments remain live / which URLs may publish;
+- whether Sentinel and DataPulse deployments remain live / which URLs may publish;
 - production domain/provider decision for this portfolio site.
 
 Product/craft:

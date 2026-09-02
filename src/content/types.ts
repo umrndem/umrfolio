@@ -54,6 +54,7 @@ export type Project = {
   infrastructureNote?: string;
   proof: string;
   limitation: string;
+  liveUrl?: string;
   repositoryUrl?: string;
   coverImage?: ImageAsset;
   gallery?: readonly ImageAsset[];

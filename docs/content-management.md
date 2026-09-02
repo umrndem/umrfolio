@@ -200,6 +200,7 @@ Find its object by `slug` in `src/content/projects.ts`.
 - Infrastructure sentence: optional `infrastructureNote`.
 - Evidence panel: `proof` and `limitation`.
 - Case-study narrative: `sections`.
+- Approved live preview action: `liveUrl`.
 - Public repository action: `repositoryUrl`.
 - Cover/gallery: `coverImage` and `gallery`.
 
@@ -347,6 +348,7 @@ Set `portrait: undefined` to restore the designed placeholder.
 ## Update external URLs
 
 - Social URLs live in `profile.ts`.
+- Approved project preview URLs live in `projects.ts` under `liveUrl`.
 - Project repository URLs live in `projects.ts`.
 - The email address lives in `profile.ts`.
 - The deployment origin lives in `getSiteUrl()` (`site-settings.ts`),

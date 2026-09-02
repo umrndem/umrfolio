@@ -42,7 +42,8 @@ export const allProjects: readonly Project[] = [
     proof:
       "I can show repository evidence across content models, public routes, media, forms, admin surfaces, and responsive refinement.",
     limitation:
-      "I do not show private source, internal content, confidential records, or unverified business impact. I also do not claim live deployment URLs or production scale.",
+      "I do not show private source, internal content, confidential records, unverified business impact, or production scale.",
+    liveUrl: "https://eastern-testing.com",
     sections: [
       {
         title: "The problem",

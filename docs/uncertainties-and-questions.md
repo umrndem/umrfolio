@@ -45,8 +45,8 @@ are user-verified in the source of truth. RideFlow’s hosted demo is user-verif
 as not currently active, while its fresh-start database/init path remains in the
 public repository. The following remain unresolved:
 
-- whether ETS, Sentinel, and DataPulse deployments remain live;
-- which deployment URLs may be published;
+- whether Sentinel and DataPulse deployments remain live;
+- which Sentinel and DataPulse deployment URLs may be published;
 - whether any business outcomes may be claimed from the deployed systems;
 - whether any RideFlow demo URL may be republished later.
 

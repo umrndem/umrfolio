@@ -203,9 +203,20 @@ export default async function WorkPage({ params }: WorkPageProps) {
               ) : null}
 
               {project.liveUrl ? (
-                <a className="button-link" href={project.liveUrl}>
-                  View live preview <span aria-hidden="true">↗</span>
-                </a>
+                <div className="case-study__live-proof">
+                  <div>
+                    <p className="kicker">Live proof of work</p>
+                    <p>Visit the public website to see the project in use.</p>
+                  </div>
+                  <a
+                    className="button-link"
+                    href={project.liveUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Visit live website <span aria-hidden="true">↗</span>
+                  </a>
+                </div>
               ) : null}
 
               {project.repositoryUrl ? (

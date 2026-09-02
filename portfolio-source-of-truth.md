@@ -76,7 +76,8 @@ production scale, or current live availability unless separately verified.
 | Deployment & services | Railway (app and managed PostgreSQL); private S3-compatible object storage for uploads | user-verified (31 July 2026) / repository-verified (commits migrating storage to S3-compatible bucket and optimizing Railway runtime; earlier Vercel + Neon + Cloudflare R2 configuration is superseded) |
 | Security & integrations | Cloudflare Turnstile | user-verified |
 | Infrastructure note | Runs on Railway with Railway-managed PostgreSQL and private S3-compatible object storage for uploads, with Cloudflare Turnstile protecting public form submissions. | user-verified / repository-verified |
-| Public website URL | https://eastern-testing.com | user-verified (3 September 2026); approved for publication as a live preview |
+| Public website URL | https://eastern-testing.com | user-verified (3 September 2026); approved for publication as live proof of the visitor-facing work |
+| Public website status | Live and under development | user-verified (3 September 2026) |
 
 Unresolved: whether dashboard screenshots are safe; whether any business outcomes
 may be claimed; the object-storage provider name

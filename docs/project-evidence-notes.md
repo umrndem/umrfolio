@@ -23,9 +23,9 @@ Evidence labels: **repository-verified**, **user-verified**, **inferred**,
 - Scroll-driven public interaction layer (entrance reveals, pinned section
   sequences, selective heavier 3D moments): repository-verified from local
   project inspection; described abstractly only.
-- `https://eastern-testing.com` is user-verified and approved for publication as
-  the public live preview (3 September 2026). Dashboard screenshots and business
-  outcomes remain unresolved.
+- `https://eastern-testing.com` is user-verified as live and approved for
+  publication as direct proof of the visitor-facing work (3 September 2026).
+  Dashboard screenshots and business outcomes remain unresolved.
 - Public treatment remains a sanitized private case study.
 
 ## Sentinel

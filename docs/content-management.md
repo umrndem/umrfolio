@@ -200,7 +200,7 @@ Find its object by `slug` in `src/content/projects.ts`.
 - Infrastructure sentence: optional `infrastructureNote`.
 - Evidence panel: `proof` and `limitation`.
 - Case-study narrative: `sections`.
-- Approved live preview action: `liveUrl`.
+- Approved live-site proof action on the homepage card and case study: `liveUrl`.
 - Public repository action: `repositoryUrl`.
 - Cover/gallery: `coverImage` and `gallery`.
 

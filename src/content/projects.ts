@@ -23,7 +23,7 @@ export const allProjects: readonly Project[] = [
       "A structured public website and CMS system designed around the people who publish, maintain, and find organizational information.",
     context: "Eastern Testing Services · Internship → apprenticeship",
     period: "June 2026 — Present",
-    stage: "Under development · partially deployed",
+    stage: "Live public website · under development",
     display: "featured",
     visibility: "private-case-study",
     range: ["data", "databases", "product", "people"],
@@ -58,7 +58,7 @@ export const allProjects: readonly Project[] = [
       {
         title: "Interaction layer",
         body:
-          "I also built scroll-driven choreography into the public experience: one-shot entrance reveals, pinned section sequences, and selective heavier 3D moments where the narrative needs them. I describe that work only at technique level here—no client screens, internal content, or production URLs.",
+          "I also built scroll-driven choreography into the public experience: one-shot entrance reveals, pinned section sequences, and selective heavier 3D moments where the narrative needs them. I describe that work only at technique level here—without exposing private admin screens or internal content.",
       },
       {
         title: "My responsibility",
@@ -68,7 +68,7 @@ export const allProjects: readonly Project[] = [
       {
         title: "What I can show",
         body:
-          "I keep this case study deliberately abstract until approved screenshots and diagrams are prepared. I can discuss the project name, technology choices, architecture at a safe level, anonymized workflows, and high-level interaction techniques; I cannot show private source or operational data.",
+          "The public website is live evidence of the visitor-facing work. I keep the case-study narrative abstract until approved screenshots and diagrams are prepared, and I do not show private source, admin content, or operational data.",
       },
     ],
   },

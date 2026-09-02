@@ -29,7 +29,7 @@ the intent behind each field; the type remains authoritative for syntax.
 | `proof` | Yes | Supported evidence statement rendered in the evidence boundary. |
 | `limitation` | Yes | Explicit claim boundary, unknown, or missing proof. |
 | `sections` | Yes | Ordered case-study sections with unique titles and non-empty body copy. |
-| `liveUrl` | No | Approved public HTTPS deployment or preview link. Omit when liveness or publication permission is unresolved. |
+| `liveUrl` | No | Approved public HTTPS live-site link, rendered as proof of shipped work on the homepage card and case study. Omit when liveness or publication permission is unresolved. |
 | `repositoryUrl` | No | Public HTTPS repository link. Omit for private/confidential repositories. |
 | `coverImage` | No | Validated homepage cover asset with path, alt, width, height, optional caption. |
 | `gallery` | No | Ordered validated case-study images. |

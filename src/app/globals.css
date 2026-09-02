@@ -1398,6 +1398,55 @@ svg {
   color: var(--card-ink);
 }
 
+.project-card__actions {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex: none;
+  gap: 1rem;
+  align-items: center;
+}
+
+.project-card__live-link {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 14.5rem;
+  min-height: 4.25rem;
+  padding: 0.8rem 1rem;
+  border: 1px solid var(--card-ink);
+  background: var(--card-ink);
+  color: var(--color-bg-primary);
+  font-family: var(--font-mono), var(--font-mono-fallback);
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  line-height: 1.2;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition:
+    background 180ms var(--ease-out),
+    color 180ms var(--ease-out),
+    transform 180ms var(--ease-out);
+}
+
+.project-card__live-link small {
+  display: block;
+  margin-bottom: 0.35rem;
+  color: currentColor;
+  font-size: 0.58rem;
+  font-weight: 400;
+  letter-spacing: 0.075em;
+  opacity: 0.72;
+}
+
+.project-card__live-link:hover {
+  background: transparent;
+  color: var(--card-ink);
+  transform: translateY(-1px);
+}
+
 .project-card__footer .text-link:hover {
   color: var(--card-ink);
 }
@@ -2475,6 +2524,7 @@ svg {
 .case-study__tools ul,
 .case-study__tools .button-link,
 .case-study__tools .case-study__infrastructure,
+.case-study__live-proof,
 .case-study__private-note {
   grid-column: 2;
 }
@@ -2517,6 +2567,29 @@ svg {
 .case-study__tools .button-link {
   width: fit-content;
   margin-top: 1.5rem;
+}
+
+.case-study__live-proof {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 40rem;
+  margin-top: 1.5rem;
+  padding: 1.25rem;
+  border-inline-start: 3px solid var(--color-brand-primary);
+  background: var(--color-surface-maroon);
+}
+
+.case-study__live-proof > div > p:last-child {
+  max-width: 25rem;
+  margin-top: 0.35rem;
+  color: var(--color-text-secondary);
+}
+
+.case-study__live-proof .button-link {
+  flex: none;
+  margin-top: 0;
 }
 
 .case-study__private-note {
@@ -2888,6 +2961,21 @@ svg {
     flex-direction: column;
   }
 
+  .project-card__actions {
+    width: 100%;
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .project-card__live-link {
+    width: 100%;
+  }
+
+  .case-study__live-proof {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
   .experience-entry {
     grid-template-columns: 1fr;
   }
@@ -3114,6 +3202,7 @@ svg {
   .case-study__tools ul,
   .case-study__tools .button-link,
   .case-study__tools .case-study__infrastructure,
+  .case-study__live-proof,
   .case-study__stack-groups,
   .case-study__private-note {
     grid-column: 1;
@@ -3138,7 +3227,8 @@ svg {
     transition-duration: 0.001ms !important;
   }
 
-  .button-link:hover {
+  .button-link:hover,
+  .project-card__live-link:hover {
     transform: none;
   }
 

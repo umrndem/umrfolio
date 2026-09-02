@@ -138,9 +138,27 @@ export function ProjectCard({
           ) : null}
         </div>
 
-        <Link className="text-link" href={`/work/${project.slug}`}>
-          Read case study <span aria-hidden="true">↗</span>
-        </Link>
+        <div className="project-card__actions">
+          {project.liveUrl ? (
+            <a
+              className="project-card__live-link"
+              href={project.liveUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={`Visit ${project.title} live (opens in a new tab)`}
+            >
+              <span>
+                <small>Live proof of work</small>
+                Visit live website
+              </span>
+              <span aria-hidden="true">↗</span>
+            </a>
+          ) : null}
+
+          <Link className="text-link" href={`/work/${project.slug}`}>
+            Read case study <span aria-hidden="true">↗</span>
+          </Link>
+        </div>
       </div>
     </article>
   );

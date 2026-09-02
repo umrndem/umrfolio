@@ -50,13 +50,12 @@ public repository. The following remain unresolved:
 - whether any business outcomes may be claimed from the deployed systems;
 - whether any RideFlow demo URL may be republished later.
 
-## Portfolio site hosting
+## Portfolio site operations
 
-These questions concern **this portfolio repository’s** public hosting, not the
-project managed-platform facts above:
+The canonical portfolio URL is resolved as `https://umrndem.com`. These remaining
+questions concern operating the portfolio, not the project managed-platform facts
+above:
 
-- Which hosting provider, source remote, production branch, and domain are
-  approved for the portfolio site itself?
 - Should preview deployments be access-restricted while professional content is
   under review?
 - Who owns production deployment and rollback authorization for the portfolio?

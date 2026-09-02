@@ -147,7 +147,6 @@ Content/approval:
 - contribution split confirmation for collaborative work;
 - safe Snakinesis demo media;
 - whether Sentinel and DataPulse deployments remain live / which URLs may publish;
-- production domain/provider decision for this portfolio site.
 
 Product/craft:
 

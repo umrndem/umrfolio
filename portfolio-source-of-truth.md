@@ -4,7 +4,7 @@ Canonical human-provided identity and project facts for Muhammad Umar Nadeem’s
 portfolio. Live content in `src/content/` must stay within these boundaries.
 Do not invent missing details. Prefer recording uncertainty over assumption.
 
-**Last updated:** 13 August 2026
+**Last updated:** 3 September 2026
 
 ## Evidence labels
 
@@ -59,6 +59,12 @@ Public copy may state:
 Do **not** claim: DevOps engineer, cloud architect, SRE, platform engineer,
 enterprise infrastructure experience, advanced Cloudflare security expertise,
 production scale, or current live availability unless separately verified.
+
+## Portfolio publication
+
+| Fact | Value | Evidence |
+|---|---|---|
+| Canonical public URL | https://umrndem.com | user-verified (3 September 2026) |
 
 ## Selected projects and stack facts
 

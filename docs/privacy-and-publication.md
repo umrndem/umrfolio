@@ -54,7 +54,6 @@ Subject to accurate context:
 - profile photograph;
 - phone placement on the primary site;
 - new ETS/Sentinel screenshots, diagrams, detailed workflows, or outcomes;
-- portfolio-site hosting provider/domain/status;
 - whether project managed-platform deployments remain live, and which project
   deployment URLs may be published;
 - business outcomes from deployed systems.

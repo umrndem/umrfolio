@@ -105,7 +105,7 @@ function buildHtml(data: ContactMessage): string {
               </td>
             </tr>
             <tr>
-              <td style="padding:16px 32px 6px;">
+              <td style="padding:16px 32px 30px;">
                 <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
                   <tr><td class="email-label" style="font-family:${mono};font-size:11px;letter-spacing:0.1em;text-transform:uppercase;color:${brand.muted};padding:0 0 5px;">From</td></tr>
                   <tr><td class="email-text" style="font-family:${sans};font-size:14px;color:${brand.ink};line-height:1.55;padding:0 0 16px;font-weight:700;">${name}</td></tr>
@@ -124,13 +124,6 @@ function buildHtml(data: ContactMessage): string {
                     </td>
                   </tr>
                 </table>
-              </td>
-            </tr>
-            <tr>
-              <td style="padding:18px 32px 30px;">
-                <a href="mailto:${email}?subject=Re:%20your%20message" style="display:inline-block;background:${brand.red};border:1px solid ${brand.red};color:#ffffff;font-family:${mono};font-size:12px;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;text-decoration:none;padding:13px 20px;">
-                  Reply to ${name}&nbsp;&nbsp;&rarr;
-                </a>
               </td>
             </tr>
           </table>

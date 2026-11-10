@@ -4,7 +4,7 @@ Canonical human-provided identity and project facts for Muhammad Umar Nadeem’s
 portfolio. Live content in `src/content/` must stay within these boundaries.
 Do not invent missing details. Prefer recording uncertainty over assumption.
 
-**Last updated:** 3 September 2026
+**Last updated:** 10 November 2026
 
 ## Evidence labels
 
@@ -98,6 +98,20 @@ Unresolved: publishable URLs; safe screenshots; business outcomes; the object-st
 provider name (kept abstract as S3-compatible); automated-test coverage
 (no committed tests as of 31 July 2026 inspection).
 
+### Dua Education — public website, private-source case study
+
+| Category | Items | Evidence |
+|---|---|---|
+| Development and publication | Umar developed the site; approved listing immediately below Sentinel and public live link | user-verified (10 November 2026) |
+| Public website URL | https://dua.ac.pk | user-verified; HTTP 200 verified 10 November 2026 |
+| Core stack | Next.js, React, TypeScript | repository-verified from application imports and typed components |
+| Public features | Course discovery, registration, bookstore; English, Urdu, Arabic and right-to-left support | repository-verified |
+| Period | October — November 2026 | repository-verified activity window; not a completion or full project-duration claim |
+
+Unresolved: contribution split, exact project start/end dates, enrollment, sales,
+and educational outcomes. No private source, records, or repository URL approved
+for publication. Public narrative stays at feature level.
+
 ### DataPulse — public supporting project
 
 | Category | Items | Evidence |
@@ -172,10 +186,11 @@ Published Selected Work order (also recorded in `docs/project-selection.md`):
 
 1. ETS Website
 2. Sentinel
-3. Snakinesis
-4. RideFlow
-5. DataPulse
-6. Financial Tick Data Pipeline
+3. Dua Education
+4. Snakinesis
+5. RideFlow
+6. DataPulse
+7. Financial Tick Data Pipeline
 
 RideFlow sits after Snakinesis because Snakinesis is the stronger public
 demonstration; RideFlow continues the public web/database/deployment thread

@@ -123,6 +123,47 @@ export const allProjects: readonly Project[] = [
     ],
   },
   {
+    slug: "dua-ac",
+    title: "Dua Education",
+    eyebrow: "Education · Multilingual web",
+    summary:
+      "A multilingual education website connecting course discovery, registration, and a bookstore for children, parents, and families.",
+    context: "Dua Education · Public website",
+    period: "October — November 2026",
+    stage: "Live public website",
+    display: "supporting",
+    visibility: "private-case-study",
+    range: ["product", "people"],
+    technologies: ["Next.js", "React", "TypeScript"],
+    proof:
+      "I developed the website with structured course content, English, Urdu, and Arabic interfaces, right-to-left layouts, registration forms, and a bookstore. The live site shows the visitor-facing experience.",
+    limitation:
+      "I keep source code and private records out of this case study. I do not claim sole authorship, enrollment or sales figures, or measured educational outcomes.",
+    liveUrl: "https://dua.ac.pk",
+    sections: [
+      {
+        title: "Learning and discovery",
+        body:
+          "I developed a public website for Dua Education that brings its educational approach, course information, and registration journey into one experience for children, parents, and families.",
+      },
+      {
+        title: "Across languages",
+        body:
+          "I built English, Urdu, and Arabic interfaces with shared translations, a language switcher, and right-to-left layout support. Course content stays structured so the same information can support the listing and detail pages.",
+      },
+      {
+        title: "From courses to books",
+        body:
+          "I connected course discovery with registration forms and a bookstore experience for browsing books and moving through a cart and checkout. These are implementation features, not claims about enrollment, completed sales, or learning outcomes.",
+      },
+      {
+        title: "Public evidence",
+        body:
+          "I link the live website as evidence of the visitor-facing work. This case study stays at the level of public features and the application stack, without publishing source code or private records.",
+      },
+    ],
+  },
+  {
     slug: "snakinesis",
     title: "Snakinesis",
     eyebrow: "Computer vision",

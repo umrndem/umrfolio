@@ -4,7 +4,7 @@
 
 ## What this site is
 
-Muhammad Umar Nadeem’s evidence-backed personal portfolio. It presents six
+Muhammad Umar Nadeem’s evidence-backed personal portfolio. It presents seven
 selected software/data projects through problems, systems, proof, and explicit
 claim boundaries.
 
@@ -12,11 +12,19 @@ It is a Next.js App Router application maintained directly through the
 repository. There is no CMS, database, admin panel, authentication, analytics,
 or remote content service.
 
+## Latest content update — 10 November 2026
+
+- Added Dua Education immediately after Sentinel, with the approved live link
+  `https://dua.ac.pk` and `/work/dua-ac` case study.
+- Public copy covers repository-verified multilingual course, registration, and
+  bookstore features. Source and private records remain excluded; contribution
+  split and outcomes remain unresolved.
+
 ## What is complete
 
 - Responsive homepage with introduction, technical range, selected work,
   experience, approach, education, and contact.
-- Six statically generated project case-study routes.
+- Seven statically generated project case-study routes.
 - Dedicated privacy-gated `/acknowledgements` route linked quietly from the
   shared footer base.
 - Typed content split by editing responsibility, including optional project

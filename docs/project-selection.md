@@ -6,20 +6,22 @@ Published Selected Work order in `src/content/projects.ts`:
 
 1. **ETS Website** — lead professional product/CMS case study.
 2. **Sentinel** — lead professional domain/authorization case study.
-3. **Snakinesis** — strongest public demonstration (computer vision / HCI), with
+3. **Dua Education** — user-approved live multilingual education website.
+4. **Snakinesis** — strongest public demonstration (computer vision / HCI), with
    versioned releases and tests.
-4. **RideFlow** — public relational / deployed web backend after the strongest
+5. **RideFlow** — public relational / deployed web backend after the strongest
    public interactive project.
-5. **DataPulse** — degree-aligned analytics and forecasting workflow.
-6. **Financial Tick Data Pipeline** — compact systems/concurrency closing note.
+6. **DataPulse** — degree-aligned analytics and forecasting workflow.
+7. **Financial Tick Data Pipeline** — compact systems/concurrency closing note.
 
-### Why RideFlow is fourth
+### Why RideFlow follows Snakinesis
 
 RideFlow is not left at the end merely because it was added later, and it is not
-third ahead of Snakinesis. Placement follows portfolio narrative and evidence:
+placed ahead of Snakinesis. Placement follows portfolio narrative and evidence:
 
 - ETS and Sentinel stay first as professional internship work.
-- Snakinesis earns the first public slot through distinctiveness and stronger
+- Dua Education follows Sentinel at Umar’s explicit request (10 November 2026).
+- Snakinesis follows the websites with distinct interaction work and strong
   public evidence (releases, tests, clearer interactive story).
 - RideFlow follows as the public Express / MySQL / Railway story—continuing the
   web and database thread after the CV turn, without overtaking Snakinesis on
@@ -42,9 +44,9 @@ visible card uses the near-white / deepest stop. See
 
 ## Featured / supporting projects
 
-- **Snakinesis:** best public interactive demonstration; it adds computer vision and human-computer interaction distinct from web work. Homepage position 3.
-- **RideFlow:** public database/domain example with Railway + Aiven MySQL deployment (user-verified). Homepage position 4. Contribution division and current live demo status remain unresolved.
-- **Financial Tick Data Pipeline:** concise systems/concurrency evidence; include as a technical note rather than a large visual case study. Homepage position 6.
+- **Snakinesis:** best public interactive demonstration; it adds computer vision and human-computer interaction distinct from web work. Homepage position 4.
+- **RideFlow:** public database/domain example with Railway + Aiven MySQL deployment (user-verified). Homepage position 5. Contribution division and current live demo status remain unresolved.
+- **Financial Tick Data Pipeline:** concise systems/concurrency evidence; include as a technical note rather than a large visual case study. Homepage position 7.
 
 ## Academic work
 
@@ -60,4 +62,4 @@ Do not include the Matootoo project as a normal public project. Do not include a
 
 ## Portfolio set recommendation
 
-The strongest distinct set is: ETS and Sentinel (approved private professional case studies), Snakinesis, RideFlow, DataPulse, and the compact systems pipeline—in that homepage order. This demonstrates web architecture, managed-platform deployment practice, interaction engineering, relational systems, data work, and systems breadth without inventing production outcomes.
+The strongest distinct set is: ETS and Sentinel (approved private professional case studies), Dua Education, Snakinesis, RideFlow, DataPulse, and the compact systems pipeline—in that homepage order. This demonstrates web architecture, managed-platform deployment practice, interaction engineering, relational systems, data work, and systems breadth without inventing production outcomes.

@@ -40,35 +40,30 @@ export const allProjects: readonly Project[] = [
     infrastructureNote:
       "I run this on Railway with Railway-managed PostgreSQL and private S3-compatible object storage for uploads, with Cloudflare Turnstile protecting public form submissions.",
     proof:
-      "I can show repository evidence across content models, public routes, media, forms, admin surfaces, and responsive refinement.",
+      "I built the public website and publishing tools, including content models, media uploads, forms, and responsive layouts.",
     limitation:
       "I do not show private source, internal content, confidential records, unverified business impact, or production scale.",
     liveUrl: "https://eastern-testing.com",
     sections: [
       {
-        title: "The problem",
+        title: "Publishing and discovery",
         body:
-          "I needed to give public information and internal publishing a clearer structure than a collection of disconnected pages. That meant translating stakeholder requirements into a system that could serve visitors and the people maintaining content.",
+          "I translated stakeholder requirements into a website for visitors and a CMS for the people maintaining its content.",
       },
       {
-        title: "The system",
+        title: "Content and administration",
         body:
-          "I separated structured CMS collections from public routes and reusable content components. The work covers media and document handling, forms, editorial relationships, and an administration surface.",
+          "I separated CMS collections from public routes and reusable components. The system handles media, documents, forms, and editorial relationships.",
       },
       {
-        title: "Interaction layer",
+        title: "Interaction",
         body:
-          "I also built scroll-driven choreography into the public experience: one-shot entrance reveals, pinned section sequences, and selective heavier 3D moments where the narrative needs them. I describe that work only at technique level here—without exposing private admin screens or internal content.",
+          "I added entrance animations, pinned scroll sequences, and selected 3D elements to the public pages.",
       },
       {
-        title: "My responsibility",
+        title: "My role",
         body:
-          "I gathered requirements through relevant stakeholders, shaped the architecture and constraints, directed AI-assisted implementation, tested the working system, reviewed changes, and iterated on weak behavior. I do not claim that I manually wrote every line.",
-      },
-      {
-        title: "What I can show",
-        body:
-          "The public website is live evidence of the visitor-facing work. I keep the case-study narrative abstract until approved screenshots and diagrams are prepared, and I do not show private source, admin content, or operational data.",
+          "I gathered requirements, planned the architecture, directed AI-assisted implementation, tested the system, and reviewed changes. I continue to expand and maintain the website.",
       },
     ],
   },
@@ -91,34 +86,24 @@ export const allProjects: readonly Project[] = [
     infrastructureNote:
       "I run this on Railway with Railway-managed PostgreSQL and private S3-compatible object storage that is served only through an authenticated in-app proxy, with Cloudflare Turnstile protecting sign-in.",
     proof:
-      "I can show repository evidence for explicit domain boundaries, edge-gated routes with server-side authorization, database-backed sessions, transactional workflow actions with per-record audit timelines, an administrative activity log, and private media delivery.",
+      "I built workflows with role-based access, database-backed sessions, audit trails, and private attachments.",
     limitation:
       "I do not claim production scale, quantified impact, automated-test coverage, employee data, or security-sensitive implementation. I also do not publish live deployment URLs.",
     sections: [
       {
-        title: "The problem",
+        title: "Operational workflows",
         body:
-          "I was working with operational reporting, medical-record, and job-planning workflows that need different access boundaries, clear states, and an audit trail. The challenge was not a dashboard; it was preserving rules while keeping the system usable.",
+          "I worked on reporting, medical-record, and job-planning workflows, each with its own access rules, states, and audit history.",
       },
       {
-        title: "The system",
+        title: "Access and records",
         body:
-          "I separated feature boundaries for reporting, medical, organization, jobs, and administration concerns. Role-derived authority and transactional mutations keep workflow changes and their audit events together, and system administration is split from HSEQ authority with its own activity log.",
+          "I separated reporting, medical, organization, jobs, and administration features. Workflow changes and their audit events are saved together, with role-based access controlling who can act on each record.",
       },
       {
-        title: "How it grew",
+        title: "Ongoing development",
         body:
-          "After the reporting core, I digitized paper job-planning sheets into a jobs module with lifecycle stages, authored progress updates, and a per-job audit timeline; added self-service employee profiles over an imported historical archive; and hardened sessions, sign-in, and outsider-facing surfaces.",
-      },
-      {
-        title: "The tradeoff",
-        body:
-          "My strongest engineering evidence sits in backend and domain behavior, while the safest public presentation has to stay abstract. On this page I prefer a sanitized flow description over realistic fake company screens.",
-      },
-      {
-        title: "Known gap",
-        body:
-          "Committed automated tests are still not present in the repository. I leave that gap visible instead of disguising it with a polished case-study surface.",
+          "I expanded the reporting core with job planning, progress updates, employee profiles, and an administrative activity log.",
       },
     ],
   },
@@ -136,7 +121,7 @@ export const allProjects: readonly Project[] = [
     range: ["product", "people"],
     technologies: ["Next.js", "React", "TypeScript"],
     proof:
-      "I developed the website with structured course content, English, Urdu, and Arabic interfaces, right-to-left layouts, registration forms, and a bookstore. The live site shows the visitor-facing experience.",
+      "I developed course pages, registration forms, and a bookstore with English, Urdu, and Arabic interfaces.",
     limitation:
       "I keep source code and private records out of this case study. I do not claim sole authorship, enrollment or sales figures, or measured educational outcomes.",
     liveUrl: "https://dua.ac.pk",
@@ -144,22 +129,17 @@ export const allProjects: readonly Project[] = [
       {
         title: "Learning and discovery",
         body:
-          "I developed a public website for Dua Education that brings its educational approach, course information, and registration journey into one experience for children, parents, and families.",
+          "I developed a website for Dua Education that brings its educational approach, course information, and registration into one place for children, parents, and families.",
       },
       {
         title: "Across languages",
         body:
-          "I built English, Urdu, and Arabic interfaces with shared translations, a language switcher, and right-to-left layout support. Course content stays structured so the same information can support the listing and detail pages.",
+          "I built English, Urdu, and Arabic interfaces with shared translations, a language switcher, and right-to-left layouts. Structured course content feeds both the listing and detail pages.",
       },
       {
         title: "From courses to books",
         body:
-          "I connected course discovery with registration forms and a bookstore experience for browsing books and moving through a cart and checkout. These are implementation features, not claims about enrollment, completed sales, or learning outcomes.",
-      },
-      {
-        title: "Public evidence",
-        body:
-          "I link the live website as evidence of the visitor-facing work. This case study stays at the level of public features and the application stack, without publishing source code or private records.",
+          "I connected course discovery with registration forms and a bookstore for browsing books, adding them to a cart, and checking out.",
       },
     ],
   },
@@ -169,7 +149,7 @@ export const allProjects: readonly Project[] = [
     eyebrow: "Computer vision",
     summary:
       "A hands-free Snake game controlled by deliberate head movement through an ordinary webcam.",
-    context: "Public project · collaborator credited",
+    context: "With Shifa Zeeshan",
     period: "May 2026",
     stage: "Public release available",
     display: "supporting",
@@ -178,30 +158,25 @@ export const allProjects: readonly Project[] = [
     technologies: ["Python", "OpenCV", "MediaPipe", "NumPy", "Pillow"],
     homepageTechnologies: ["Python", "OpenCV", "MediaPipe", "NumPy"],
     proof:
-      "I can point to calibration, smoothed face-center ratios, neutral re-arm behavior, fallback controls, release tags, and focused tests in the public repository.",
+      "The game combines calibration, smoothed head tracking, gesture controls, and keyboard input. Releases and tests are available in the repository.",
     limitation:
       "I still need confirmation of the exact contribution split with Shifa Zeeshan; I do not claim sole authorship.",
     repositoryUrl: "https://github.com/umrndem/snakinesis",
     sections: [
       {
-        title: "The interaction problem",
+        title: "Gesture control",
         body:
-          "I found early eye-gaze control too jittery for reliable play. The useful shift for me was treating control as a deliberate gesture system with calibration, thresholds, and a return to neutral before another command.",
+          "Early eye-gaze control was too jittery for reliable play. We switched to deliberate head movements, with calibration, thresholds, and a return to neutral before each new command.",
       },
       {
         title: "The control loop",
         body:
-          "I use OpenCV to capture frames, MediaPipe for face landmarks, and a controller that converts smoothed relative movement into one-shot directions. I keep keyboard input available as an accessible fallback.",
+          "OpenCV captures frames, MediaPipe provides face landmarks, and the controller turns smoothed movement into one-shot directions. Keyboard controls provide a fallback.",
       },
       {
-        title: "Evidence",
+        title: "Testing and releases",
         body:
-          "In the repository I included tests around face-loss prompts, direction selection, gesture gating, timing, and game behavior, plus tagged releases from the initial version through later fixes.",
-      },
-      {
-        title: "Before final copy",
-        body:
-          "I still need a safe demo video and a confirmed collaborator contribution split. Until then I present the control decision—not merely the retro game surface.",
+          "The repository includes tests for face loss, direction selection, gesture gating, timing, and game behavior, alongside tagged releases.",
       },
     ],
   },
@@ -211,7 +186,7 @@ export const allProjects: readonly Project[] = [
     eyebrow: "Relational systems",
     summary:
       "A multi-role ride-hailing simulation with Express APIs, MySQL business rules, and rider, driver, and admin surfaces.",
-    context: "Public project · contributor: Muhammad Rafay Mir Khattak",
+    context: "With Muhammad Rafay Mir Khattak",
     period: "May 2026",
     stage: "Public prototype · not currently active",
     display: "supporting",
@@ -221,9 +196,9 @@ export const allProjects: readonly Project[] = [
     deployment: ["Railway", "Aiven"],
     homepageTechnologies: ["Express", "JavaScript", "MySQL", "Railway"],
     infrastructureNote:
-      "I previously deployed this through Railway with an Aiven-managed MySQL database. The hosted demo is not currently active; the repository still supports initializing a fresh database and bringing up a new instance.",
+      "Previously hosted on Railway with Aiven-managed MySQL. The demo is currently offline; local setup is available in the repository.",
     proof:
-      "I can show Express routes, MySQL schema and database-side logic, and role-oriented frontend surfaces for a ride-hailing simulation in the public repository.",
+      "The simulation connects Express routes and MySQL business rules with separate interfaces for riders, drivers, and administrators.",
     limitation:
       "The hosted demo is not currently active. The exact contribution split with Muhammad Rafay Mir Khattak remains unresolved; I do not claim production-scale or commercial impact.",
     repositoryUrl: "https://github.com/umrndem/rideflow",
@@ -231,22 +206,22 @@ export const allProjects: readonly Project[] = [
       {
         title: "The domain",
         body:
-          "I modeled riders, drivers, wallets, payments, ratings, complaints, and payouts as a connected relational system rather than a static mock UI.",
+          "The database connects riders, drivers, wallets, payments, ratings, complaints, and payouts.",
       },
       {
         title: "The stack",
         body:
-          "I put an Express API in front of MySQL business rules, with vanilla JavaScript pages for role-specific workflows for riders, drivers, and administrators.",
+          "An Express API sits in front of MySQL business rules, with JavaScript pages for riders, drivers, and administrators.",
       },
       {
-        title: "Deployment practice",
+        title: "Deployment",
         body:
-          "I previously deployed the project through Railway with an Aiven-managed MySQL database. That is useful evidence that I can connect an application to hosted infrastructure; it is not a claim of production operations expertise.",
+          "I previously deployed the project on Railway with Aiven-managed MySQL. The hosted demo is currently offline.",
       },
       {
-        title: "Current status",
+        title: "Running it locally",
         body:
-          "The hosted demo is not currently active. I can still use the repository as a fresh start: schema, business-logic, and bootstrap SQL—or the bundled database-init script—stand up a clean MySQL database with the admin account and location graph, after which I can run a new local or hosted Express instance against that database.",
+          "The repository includes schema, business-logic, and bootstrap SQL. The database-init script prepares a fresh MySQL database with an admin account and location graph for a new Express instance.",
       },
     ],
   },
@@ -255,7 +230,7 @@ export const allProjects: readonly Project[] = [
     title: "DataPulse",
     eyebrow: "Analytics",
     summary:
-      "An end-to-end Streamlit analytics dashboard spanning ingestion, transformation, business KPIs, visualization, export, and a forecasting path.",
+      "A Streamlit dashboard for data preparation, KPIs, visualization, exports, and forecasting.",
     context: "Public project",
     period: "May 2026",
     stage: "Public prototype",
@@ -268,30 +243,25 @@ export const allProjects: readonly Project[] = [
     infrastructureNote:
       "I deployed this through Streamlit Community Cloud with Supabase-backed services.",
     proof:
-      "I can show public source that separates pages, services, pipeline steps, configuration, and tests, including a direct KPI test.",
+      "I organized the dashboard into pages, services, and pipeline steps, with configurable column mappings and tests for KPI calculations.",
     limitation:
       "I have not verified forecast quality, model comparison, data provenance, or role enforcement. Whether the deployed app remains live is still unresolved.",
     repositoryUrl: "https://github.com/umrndem/DataPulse",
     sections: [
       {
-        title: "The product shape",
+        title: "The workflow",
         body:
-          "I treat DataPulse as evidence of an analytics workflow more than as an ML claim: configured ingestion, transformation, KPIs, charts, export, targets, and forecasting connected in one application.",
+          "I connected data ingestion, transformation, KPIs, charts, exports, targets, and forecasting in a Streamlit dashboard.",
       },
       {
-        title: "What I can show",
+        title: "Data preparation",
         body:
-          "I have concrete repository support for Pandas-based transformation, configurable column mappings, service boundaries, visual reporting, and a small known-data KPI test.",
+          "I used Pandas for transformation and configurable column mappings to handle the input data. Pages, services, and pipeline steps are kept separate.",
       },
       {
-        title: "What I do not claim",
+        title: "Testing and forecasting",
         body:
-          "I have not verified forecast evaluation, model comparison, a messy external dataset study, or production usage. I therefore call this analytics with forecasting—not AI research.",
-      },
-      {
-        title: "Next proof",
-        body:
-          "I would strengthen this as a data-science case study with a reproducible public-safe dataset, runtime validation, baseline comparison, and explicit error metrics.",
+          "The repository includes a known-data KPI test. Forecast accuracy still needs evaluation against a baseline and a reproducible dataset.",
       },
     ],
   },
@@ -303,7 +273,7 @@ export const allProjects: readonly Project[] = [
       "A compact Linux pipeline that coordinates processes, IPC, worker threads, and aggregation to turn tick CSV records into per-symbol summaries.",
     context: "Public technical project",
     period: "May 2026",
-    stage: "Completed academic project",
+    stage: "Completed project",
     display: "supporting",
     visibility: "public",
     range: ["systems programming", "data"],
@@ -316,24 +286,19 @@ export const allProjects: readonly Project[] = [
     repositoryUrl: "https://github.com/umrndem/financial-tick-data-pipeline",
     sections: [
       {
-        title: "The topology",
+        title: "Processes and threads",
         body:
-          "I built a dispatcher that prepares IPC resources and launches ingester, processor, and reporter processes. The processor combines a bounded producer-consumer queue with worker threads before publishing shared-memory output.",
+          "I built a dispatcher that prepares IPC resources and launches ingester, processor, and reporter processes. The processor uses a bounded producer-consumer queue and worker threads before publishing shared-memory output.",
       },
       {
-        title: "Why it matters",
+        title: "Coordination",
         body:
-          "The project is small, but it gives me concrete evidence that my strongest language is grounded in processes, memory, concurrency primitives, cleanup, and data aggregation—not only syntax exercises.",
+          "I used FIFOs, shared memory, and named semaphores to coordinate the processes, with signal handling and cleanup for shutdown.",
       },
       {
         title: "Aggregation",
         body:
-          "I summarize records per symbol with volume, count, high, low, and volume-weighted average price. This is systems-oriented data processing, not machine learning.",
-      },
-      {
-        title: "Known limits",
-        body:
-          "With one observed commit and no documented benchmark, I do not claim production or performance results. The next useful step for me is a reproducible run and an honest throughput experiment.",
+          "I summarize tick records by symbol, calculating volume, count, high, low, and volume-weighted average price.",
       },
     ],
   },
@@ -341,7 +306,7 @@ export const allProjects: readonly Project[] = [
 
 export const visibilityLabels: Record<ProjectVisibility, string> = {
   public: "Public project",
-  "private-case-study": "Private repository · confidential details omitted",
+  "private-case-study": "Private repository",
   confidential: "Confidential / not published",
 };
 

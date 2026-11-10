@@ -5,7 +5,7 @@ export const acknowledgementsPage = {
   /** Fixed display lines for the hero heading. */
   titleLines: ["The people", "I carry", "with me."],
   introduction:
-    "I built the work shown here, but I did not become the person capable of building it alone. This page is for the people whose faith, care, patience, friendship, and guidance shaped the way I think and keep going.",
+    "I’m grateful to the people whose care, friendship, and guidance have helped me learn and keep going.",
   praiseKicker: "First and foremost",
   praiseTitle: "All praise belongs to Allah.",
   praise:
@@ -58,7 +58,7 @@ export const acknowledgementsPage = {
     },
   ] satisfies readonly Acknowledgement[],
   closing:
-    "They are mentioned here, but their influence appears throughout the rest of the site.",
+    "Thank you for being part of my life and work.",
   returnLabel: "Back to the work",
   returnHref: "/#work" as const,
 } as const;

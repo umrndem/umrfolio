@@ -97,14 +97,11 @@ export default async function WorkPage({ params }: WorkPageProps) {
 
         <aside className="case-study__boundary" aria-labelledby="boundary-title">
           <p className="kicker" id="boundary-title">
-            Evidence boundary
+            Overview
           </p>
           <div>
             <p>
-              <strong>Supported:</strong> {project.proof}
-            </p>
-            <p>
-              <strong>Not overstated:</strong> {project.limitation}
+              {project.proof}
             </p>
           </div>
         </aside>
@@ -205,8 +202,8 @@ export default async function WorkPage({ params }: WorkPageProps) {
               {project.liveUrl ? (
                 <div className="case-study__live-proof">
                   <div>
-                    <p className="kicker">Live proof of work</p>
-                    <p>Visit the public website to see the project in use.</p>
+                    <p className="kicker">Website</p>
+                    <p>Explore the live site.</p>
                   </div>
                   <a
                     className="button-link case-study__live-link"
@@ -221,14 +218,9 @@ export default async function WorkPage({ params }: WorkPageProps) {
 
               {project.repositoryUrl ? (
                 <a className="button-link" href={project.repositoryUrl}>
-                  View public repository <span aria-hidden="true">↗</span>
+                  View source <span aria-hidden="true">↗</span>
                 </a>
-              ) : (
-                <p className="case-study__private-note">
-                  The repository is private. Approved public artifacts will be added
-                  here after redaction and review.
-                </p>
-              )}
+              ) : null}
             </section>
           </div>
         </div>

@@ -12,6 +12,15 @@ It is a Next.js App Router application maintained directly through the
 repository. There is no CMS, database, admin panel, authentication, analytics,
 or remote content service.
 
+## Copy cleanup — 10 November 2026
+
+- Rewrote homepage and project narratives in direct language; removed public
+  claim disclaimers and publication-review promises.
+- Case studies render `proof` as an overview. Required `limitation` notes remain
+  available to maintainers and validation, but are not displayed. Collaborator
+  credits, demo status, and a concise AI-assistance disclosure remain public.
+- Simplified loading, error, and not-found messages and acknowledgement framing.
+
 ## Latest content update — 10 November 2026
 
 - Added Dua Education immediately after Sentinel, with the approved live link

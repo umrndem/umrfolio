@@ -7,7 +7,7 @@ export default function Loading() {
       aria-live="polite"
     >
       <p className="kicker">Loading…</p>
-      <h1>Preparing the working proof…</h1>
+      <h1>Loading the page…</h1>
     </main>
   );
 }

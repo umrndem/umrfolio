@@ -163,3 +163,11 @@ configuration; `NEXT_PUBLIC_SITE_URL` remains an override for audits or
 temporary alternate hosts. `next.config.ts` calls
 `initOpenNextCloudflareForDev()` so `next dev` resolves the Cloudflare
 context the same way the deployed Worker does.
+
+## 10 November 2026 — Keep claim-review notes out of public copy
+
+At Umar’s request, case studies show a factual overview instead of an evidence
+boundary panel. The existing required `limitation` field stays in the content
+model for maintainer review and validation, without rendering it in the public
+interface. Relevant availability and collaboration facts stay in project status,
+context, or narrative. Publication filters and factual boundaries are unchanged.

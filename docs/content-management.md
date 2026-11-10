@@ -198,7 +198,8 @@ Find its object by `slug` in `src/content/projects.ts`.
 - Card copy: `eyebrow`, `summary`, `context`, and `stage`.
 - Technical tags: `technologies` (core), optional `deployment`, optional `integrations`.
 - Infrastructure sentence: optional `infrastructureNote`.
-- Evidence panel: `proof` and `limitation`.
+- Project overview: `proof`.
+- Maintainer claim-review note: `limitation` (required, not rendered publicly).
 - Case-study narrative: `sections`.
 - Approved live-site proof action on the homepage card and case study: `liveUrl`.
 - Public repository action: `repositoryUrl`.

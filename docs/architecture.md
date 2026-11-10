@@ -70,7 +70,7 @@ RootLayout
 │   └── SiteFooter
 ├── /work/[slug]                   one route per published project
 │   ├── case-study hero
-│   ├── evidence boundary
+│   ├── project overview
 │   ├── optional gallery
 │   ├── narrative sections
 │   ├── technical notes

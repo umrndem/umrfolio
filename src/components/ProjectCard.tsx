@@ -34,9 +34,6 @@ export function ProjectCard({
   const deploymentItems = (project.deployment ?? []).filter(isCurated);
   const integrationItems = (project.integrations ?? []).filter(isCurated);
 
-  const hasSecondaryStack =
-    deploymentItems.length > 0 || integrationItems.length > 0;
-
   const mixStyle =
     surfaceMode === "mix"
       ? ({
@@ -130,12 +127,6 @@ export function ProjectCard({
             </ul>
           ) : null}
 
-          {hasSecondaryStack ? (
-            <p className="sr-only">
-              Managed deployment services and security integrations are listed
-              in quieter styling alongside the core application stack.
-            </p>
-          ) : null}
         </div>
 
         <div className="project-card__actions">

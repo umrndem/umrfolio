@@ -52,7 +52,9 @@ export type Project = {
   homepageTechnologies?: readonly string[];
   /** Optional concise infrastructure sentence for the case-study technical notes. */
   infrastructureNote?: string;
+  /** Factual implementation summary displayed in the project overview. */
   proof: string;
+  /** Maintainer claim-review note; not rendered in the public interface. */
   limitation: string;
   liveUrl?: string;
   repositoryUrl?: string;

@@ -26,8 +26,8 @@ the intent behind each field; the type remains authoritative for syntax.
 | `integrations` | No | Unique security/third-party integrations (for example Turnstile). Omit when none. Never list Turnstile under deployment. |
 | `homepageTechnologies` | No | Curated subset shown on the homepage card only. Every label must already exist in `technologies`, `deployment`, or `integrations`. Case-study pages always show the full stack. |
 | `infrastructureNote` | No | One concise factual infrastructure sentence for the case-study technical notes. |
-| `proof` | Yes | Supported evidence statement rendered in the evidence boundary. |
-| `limitation` | Yes | Explicit claim boundary, unknown, or missing proof. |
+| `proof` | Yes | Factual implementation summary rendered in the project overview. |
+| `limitation` | Yes | Maintainer claim-review note for unknowns and unsupported claims; not rendered publicly. |
 | `sections` | Yes | Ordered case-study sections with unique titles and non-empty body copy. |
 | `liveUrl` | No | Approved public HTTPS live-site link, rendered as proof of shipped work on the homepage card and case study. Omit when liveness or publication permission is unresolved. |
 | `repositoryUrl` | No | Public HTTPS repository link. Omit for private/confidential repositories. |
@@ -177,7 +177,7 @@ ETS Website and Sentinel require all of the following:
   or security-sensitive implementation;
 - no private source or copied internal documentation;
 - no realistic fake records that could be mistaken for real company data;
-- explicit proof and limitation statements;
+- factual overview copy and maintained claim-review notes;
 - approval before publishing new screenshots, diagrams, or detailed workflows.
 
 Read `docs/privacy-and-publication.md` before every professional-content change.
@@ -291,8 +291,10 @@ production claim, security guarantee, model quality, award, or responsibility
 unless the source of truth or evidence explicitly supports it.
 
 Use `proof` for demonstrated evidence and `limitation` for the known boundary.
-Both are required so a polished case-study surface cannot silently erase
-uncertainty.
+Both remain required for validation. `limitation` is a maintainer note, not public
+copy. Keep relevant visitor-facing facts (demo availability, prototype status,
+and collaborator credits) in `stage`, `context`, or the narrative. Do not turn
+unverified claims into positive assertions when removing repetitive disclaimers.
 
 ## Validation and preview
 

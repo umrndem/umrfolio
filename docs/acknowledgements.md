@@ -66,3 +66,8 @@ Return link targets `/#work` (“Back to the work”).
 
 Acknowledgements must not be generated automatically from repository history,
 private conversations, contacts, project collaborators, or research notes.
+
+## Copy maintenance — 10 November 2026
+
+The site-wide copy cleanup shortened the introduction and closing. Approved
+names, relationship labels, individual thanks, and praise remain unchanged.

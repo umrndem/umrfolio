@@ -1,7 +1,7 @@
 export const homeContent = {
   hero: {
     kicker: "Islamabad · Data Science · Software systems",
-    title: "I turn complexity into clarity.",
+    title: "I build software and data systems.",
     introduction:
       "a Data Science student with a strong C++ foundation. I work across data, databases, and product software.",
     primaryAction: "See selected work",
@@ -9,26 +9,26 @@ export const homeContent = {
     current:
       "A full-time Data Science student, Software Development Apprentice at Eastern Testing Services, and volunteer Research Assistant at Data Insight Lab.",
     portraitPlaceholder: {
-      title: "Portrait in review",
-      note: "Approved photograph needed before launch.",
+      title: "Umar",
+      note: "Software & data systems",
     },
   },
   range: {
     kicker: "Technical range",
-    title: "My work moves between systems, data, and the people using them.",
+    title: "From C++ systems to web applications.",
     description:
       "My projects range from C++ systems and relational databases to analytics, computer vision, and end-to-end web applications.",
   },
   work: {
     index: "01",
     title: "Selected work",
-    note: "A selection of projects that show how I approach different kinds of technical problems.",
+    note: "Websites, internal tools, and software projects.",
   },
   experience: {
     heading: {
       index: "02",
       title: "Experience",
-      note: "Roles, internships, and the work I took ownership of along the way.",
+      note: "My work and research experience.",
     },
     entries: [
       {
@@ -81,26 +81,26 @@ export const homeContent = {
     steps: [
       {
         key: "A",
-        title: "Frame the real problem",
+        title: "Understand the problem",
         body:
-          "I write the ambiguity down, ask questions, identify constraints, and begin implementation early enough to learn from the real system.",
+          "I ask questions, write down constraints, and build an early version to test my understanding.",
       },
       {
         key: "B",
         title: "Structure the system",
         body:
-          "I look into unfamiliar tools, talk through architecture and tradeoffs, and break the work into clear pieces another person or agent can understand.",
+          "I research unfamiliar tools, compare approaches, and break the work into smaller parts.",
       },
       {
         key: "C",
-        title: "Direct and verify",
+        title: "Build and test",
         body:
-          "I coordinate implementation, inspect the result, run the checks, and iterate until the behavior is reliable.",
+          "I review the implementation, test it, and revise what does not work.",
       },
     ],
     boundaryLabel: "AI-assisted development",
     boundary:
-      "I use AI throughout development for research, implementation, debugging, and review. My responsibility is to define the problem, make the architectural decisions, test the result, and understand what ships.",
+      "I use AI for research, coding, debugging, and review. I make the design decisions and test the work before it ships.",
   },
   about: {
     heading: {
@@ -110,7 +110,7 @@ export const homeContent = {
     },
     paragraphs: [
       "Mathematics and computing brought me to Data Science. The work I have now is broader: C++ and operating systems, relational data, applied computer vision, analytics, and end-to-end web applications.",
-      "I’m looking for environments with meaningful technical exposure where I can become much stronger in software, data systems, machine learning, and AI.",
+      "I want to keep learning through hands-on work in software, data systems, and machine learning.",
     ],
     strongCoursework:
       "Data Structures, Operating Systems, Probability & Statistics, Calculus, Linear Algebra",
@@ -120,7 +120,7 @@ export const homeContent = {
     headline: ["Have a problem you think", "I could help solve?"],
     action: "Write to me",
     availability:
-      "I’m open to technical opportunities where I can solve real problems, learn quickly, and contribute useful work.",
+      "I’m open to software and data opportunities.",
     form: {
       nameLabel: "Name",
       namePlaceholder: "Your name",
@@ -135,7 +135,7 @@ export const homeContent = {
         "Thanks — your message is on its way and a copy has been sent to your inbox. I’ll get back to you soon.",
       errorTitle: "Could not send",
       errorBody:
-        "Something went wrong on the form endpoint. You can still reach me directly by email.",
+        "Your message could not be sent. Please try again or email me directly.",
       directEmailLabel: "Or email directly",
       honeypotLabel: "Company",
     },
